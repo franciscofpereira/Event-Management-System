@@ -14,6 +14,7 @@ The Event Manager receives input via `.jobs` files located inside the `jobs` dir
 
 - With the server already running, you can now run client instances in the `client` directory using:
 > **./client req_pipe resp_pipe server_pipe jobs_file_path**
+
 Where:
 - **req_pipe** is the path to the client's request pipe-
 - **resp_pipe** is the path to the client's response pipe.
