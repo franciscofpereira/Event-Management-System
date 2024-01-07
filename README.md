@@ -4,15 +4,15 @@
 This project is a multi-threaded Event Management System featuring a robust client-server architecture. It excels at efficiently handling events and solving challenges related to the producer-consumer problem. 
 The Event Manager receives input via `.jobs` files located inside the `jobs` directory. After executing the commands specified in the `.jobs` file, the program creates a corresponding `.out` file in the same directory containing the output.
 
-# How to run the program
+# Configuration
 
--To run the program you first must compile it using:
+- To run the program you first must compile it using:
 > **make**
 
--After compiling you must run the server's executable inside the `server` directory using:
+- After compiling you must run the server's executable inside the `server` directory using:
 > **./ems pipe_name** (where pipe_name is the name of the server's designated pipe for receiving client connection requests.)  
 
--With the server already running, you can now run client instances in the `client` directory using:
+- With the server already running, you can now run client instances in the `client` directory using:
 > **./client req_pipe resp_pipe server_pipe jobs_file_path**
 Where:
 - **req_pipe** is the path to the client's request pipe-
