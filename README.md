@@ -9,7 +9,9 @@ Please refer to the file `Projeto SO - Parte 2.pdf` for the project's instructio
 # Configuration
 
 - To run the program you first must compile it using:
-  > **make**
+```text
+make
+```
 
 - After compiling you must run the server's executable inside the `server` directory using:
   > **./ems pipe_name** (where `pipe_name` is the name of the server's designated pipe for receiving client connection requests.)  
